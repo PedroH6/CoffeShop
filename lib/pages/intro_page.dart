@@ -31,6 +31,8 @@ class IntroPage extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24.0),
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   // Título principal
                   Text(
@@ -53,7 +55,8 @@ class IntroPage extends StatelessWidget {
                       color: Colors.white,
                       height: 1.4,
                     ),
-                  )
+                  ),
+                  
                 ],
               ),
             ),
