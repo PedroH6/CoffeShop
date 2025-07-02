@@ -18,7 +18,17 @@ class IntroPage extends StatelessWidget {
           ),
         ),
         child: Container(
-          
+          // Overlay escuro para melhorar a legibilidade do texto
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter,
+              colors: [
+                Colors.black.withValues(alpha: 0.3),
+                Colors.black.withValues(alpha: 0.7),
+              ],
+            ),
+          ),
         ),
       ),
     );
