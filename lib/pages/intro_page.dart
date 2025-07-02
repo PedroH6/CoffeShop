@@ -1,3 +1,4 @@
+import 'package:coffee_shop/components/custom_button.dart';
 import 'package:flutter/material.dart';
 
 class IntroPage extends StatelessWidget {
@@ -57,9 +58,12 @@ class IntroPage extends StatelessWidget {
                     ),
                   ),
 
-                  const SizedBox(height: 16)
+                  const SizedBox(height: 16),
 
-                  
+                  CustomButton(
+                    text: 'Get Started',
+                    onPressed: () {},
+                  )
                 ],
               ),
             ),

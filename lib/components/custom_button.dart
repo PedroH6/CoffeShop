@@ -16,14 +16,14 @@ class CustomButton extends StatelessWidget {
     super.key,
     required this.text,
     required this.onPressed,
-    required this.backgroundColor,
-    required this.textColor,
-    required this.width,
-    required this.height,
-    required this.fontSize,
-    required this.fontWeight,
-    required this.borderRadius,
-    required this.elevation,
+    this.backgroundColor,
+    this.textColor,
+    this.width,
+    this.height = 58,
+    this.fontSize = 18,
+    this.fontWeight = FontWeight.w600,
+    this.borderRadius = 16,
+    this.elevation = 0,
     });
 
   @override
