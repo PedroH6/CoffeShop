@@ -9,7 +9,8 @@ class IntroPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-       
+       width: double.infinity,
+       height: double.infinity,
       ),
     );
   }
