@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 class IntroPage extends StatelessWidget {
@@ -44,7 +42,18 @@ class IntroPage extends StatelessWidget {
                       height: 1.2,
                     ),
                   ),
-                 
+
+                  const SizedBox(height: 16),
+
+                  // Subtítulo
+                  Text(
+                    'Welcome to our cozy coffee corner, where\nevery cup is a delightful for you.',
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.white,
+                      height: 1.4,
+                    ),
+                  )
                 ],
               ),
             ),
