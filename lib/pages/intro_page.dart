@@ -33,7 +33,19 @@ class IntroPage extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 24.0),
               child: Column(
-                
+                children: [
+                  // Título principal
+                  Text(
+                    'Fall in Love with\nCoffee in Blissful\nDelight!',
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      height: 1.2,
+                    ),
+                  ),
+                 
+                ],
               ),
             ),
           ),
