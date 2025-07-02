@@ -62,7 +62,9 @@ class IntroPage extends StatelessWidget {
 
                   CustomButton(
                     text: 'Get Started',
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/home_page.dart');
+                    },
                   ),
 
                   const SizedBox(height: 48),

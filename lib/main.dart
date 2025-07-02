@@ -1,3 +1,4 @@
+import 'package:coffee_shop/pages/home_page.dart';
 import 'package:coffee_shop/pages/intro_page.dart';
 import 'package:flutter/material.dart';
 
@@ -13,6 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: IntroPage(),
+      routes: {
+        '/intro_page.dart': (context) => IntroPage(),
+        '/home_page.dart': (context) => HomePage(),
+      },
     );
   }
 }
