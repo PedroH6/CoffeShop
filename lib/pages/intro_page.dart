@@ -29,6 +29,14 @@ class IntroPage extends StatelessWidget {
               ],
             ),
           ),
+          child: SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24.0),
+              child: Column(
+                
+              ),
+            ),
+          ),
         ),
       ),
     );
