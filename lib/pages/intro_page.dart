@@ -7,7 +7,21 @@ class IntroPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
-        
+        children: [
+          // Background Image
+          Positioned.fill(
+            child: Image.asset('lib/assets/Onboarding.png', fit: BoxFit.cover),
+          ),
+
+          // Content Section (Text and Button)
+          Positioned(
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Container(
+
+            ))
+        ],
       ),
     );
   }
