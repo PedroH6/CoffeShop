@@ -24,19 +24,21 @@ class _HomePageState extends State<HomePage> {
 }
 
 Widget _buildHeader() {
-  return Padding(
-    padding: const EdgeInsets.all(20.0),
-    child: Row(
-      children: [
-        Column(
-          children: [
-            Text(
-              'Location',
-              style: TextStyle(color: Colors.grey[400], fontSize: 12),
-            ),
-          ],
-        ),
-      ],
+  return Container(
+    child: Padding(
+      padding: const EdgeInsets.all(20.0),
+      child: Row(
+        children: [
+          Column(
+            children: [
+              Text(
+                'Location',
+                style: TextStyle(color: Colors.grey[400], fontSize: 12),
+              ),
+            ],
+          ),
+        ],
+      ),
     ),
   );
 }
