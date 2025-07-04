@@ -14,7 +14,8 @@ class _HomePageState extends State<HomePage> {
       body: SafeArea(
         child: Column(
           children: [
-
+            //Header
+            _buildHeader(),
           ],
         )
       ),
@@ -26,5 +27,8 @@ class _HomePageState extends State<HomePage> {
 Widget _buildHeader() {
   return Padding(
     padding: const EdgeInsets.all(20.0),
+    child: Row(
+      
+    ),
   )
 }
